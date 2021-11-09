@@ -1,5 +1,8 @@
 package repeticion;
-
+/*
+Ej12: Ingresa 100 numeros usando
+la centencia Do-While
+*/
 public class NumerosDoWhile {
     public static void main(String[] args) {
         //Declaracion de variables

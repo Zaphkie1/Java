@@ -1,6 +1,6 @@
 package repeticion;
 /*
-Muestra los primeros 100 numeros pares
+Ej13: Muestra los primeros 100 numeros pares
 usando la sentencia Do-While
 */
 public class Numerosparesdowhile {
