@@ -13,11 +13,11 @@ public class Ejercicio2 {
             System.out.println("---------------------------");
             if(numero<10)
             {
-                System.out.println("tine 1 cifra");   
+                System.out.println("tine 1 cifra");
             }
             else if(numero<100)
             {
-                System.out.println("tiene 2 cifras"); 
+                System.out.println("tiene 2 cifras");
             }
            else if(numero<1000)
             {
@@ -46,6 +46,10 @@ public class Ejercicio2 {
            else if(numero<1000000000)
             {
                 System.out.println("Tiene 9 cifras");
+            }
+            else if(numero<1000000000)
+            {
+                System.out.println("tiene 10 cifras");
             }
         }//Fin del metodo main ()
     }//Fin de la clase
