@@ -28,5 +28,5 @@ public class AciertaNumero {
             }
         } while (numeroa != numero);
         System.out.println("Felicidades encontraste el numero correcto: " + numeroa);
-    }
-}
+    } //fin del metodo main
+}//fin de la clase
