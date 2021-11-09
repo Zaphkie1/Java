@@ -22,8 +22,8 @@ public class AciertaNumero {
         numero = in .nextInt();
         if (numero > numeroa); {
         System.out.println("El numero a adivinar es mas pequeño ingresa otro nuemro");
-        } 
-        else if (numero < numeroa); {
+        }
+         if (numero < numeroa); {
                 System.out.println("el numero a adivinar es mas grande ingresa otro numero");
 
         }
