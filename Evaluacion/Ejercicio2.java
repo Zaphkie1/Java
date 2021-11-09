@@ -51,5 +51,9 @@ public class Ejercicio2 {
             {
                 System.out.println("tiene 10 cifras");
             }
+            else if(numero < 100000000)
+            {
+                System.out.println("Tiene 11 cifras");
+            }
         }//Fin del metodo main ()
     }//Fin de la clase
