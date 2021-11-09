@@ -10,22 +10,23 @@ cuando el ususario acierta
 */
 public class AciertaNumero {
     public static void main(String[] args) {
-        //Declaracion de variables
+        // Declaracion de variables
         int numeroa, numero;
         Scanner in = new Scanner(System.in);
-        System.out.println("_______________________________");
-        System.out.println("\tNumero aleatorio");
-        System.out.println("-------------------------------");
-        System.out.print("ingresa el numero que deseas adivinar: ");
-        numeroa = in .nextInt();
-        System.out.println("ingresa un numero: ");
-        numero = in .nextInt();
-        if (numero > numeroa); {
-        System.out.println("El numero a adivinar es mas pequeño ingresa otro nuemro");
-        }
-         if (numero < numeroa); {
-                System.out.println("el numero a adivinar es mas grande ingresa otro numero");
-
-        }
+        System.out.println("\t Adivina un numero");
+        System.out.println("-------------------------------------");
+        System.out.print("Ingresa un numero: ");
+        numeroa = in.nextInt();
+        do {
+            System.out.println("----------------------------------");
+            System.out.print("ingresa tu numero: ");
+            numero = in.nextInt();
+            if (numeroa > numero) {
+                System.out.print("El número que intentas adivinar es mayor que el introducido \n");
+            } else if (numeroa < numero) {
+                System.out.print("El número que intentas adivinar es menor que el introducido \n");
+            }
+        } while (numeroa != numero);
+        System.out.println("Felicidades encontraste el numero correcto: " + numeroa);
     }
 }
