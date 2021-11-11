@@ -1,6 +1,6 @@
 package repeticion;
 /*
-* Ej3: Imprime los 20 primeros numeros impares
+* Ej4: Imprime los 20 primeros numeros impares
 * mediante el uso de la sentencia while
 */
 public class NumerosImparesWhile {

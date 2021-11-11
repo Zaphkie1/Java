@@ -1,13 +1,16 @@
 package seleccion;
-
+/*
+* Ej???: Hacer un programa para calcular al Perimetro de un
+* Cuadrado, rectangulo, triangulo, y circulo mediante un
+* menu de opciones (Usar la sentencia Do-While)
+*/
 import java.util.Scanner;
-
 public class MenuPerimetroDoWhile {
     public static void main(String[] args) {
          //Declaracion de variables
          int opc;
          Scanner in = new Scanner(System.in);
-         do{
+         do{//Inicio Do-While
          System.out.println("\tMenu de Perimetros");
          System.out.println("----------------------------");
          System.out.println("1. - Cuadrado");

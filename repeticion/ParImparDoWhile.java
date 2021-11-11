@@ -11,19 +11,18 @@ sentencia do-while
 */
 public class ParImparDoWhile {
     public static void main(String[] args) {
-        //Declaracion de variables
-        int numero,i,sPares=0,sImpares=0;
-        int npar=0,total,nimpar=0;
+        // Declaracion de variables
+        int numero, i, sPares = 0, sImpares = 0;
+        int npar = 0, total, nimpar = 0;
         Scanner in = new Scanner(System.in);
         System.out.println("\tNumero Par-Impar");
         System.out.println("---------------------------");
         System.out.println("Ingresa un numero positivo o negativo: ");
         numero = in.nextInt();
         do {
-            
         } while (numero > 0);
         {
             System.out.println("Ingresa otro numero: ");
         }
-    }//Fin del metodo main
-}//Fin de la clase
+    }// Fin del metodo main
+}// Fin de la clase

@@ -18,6 +18,5 @@ public class Sumatoria2While {
             numero = in.nextInt();
         }
         System.out.printf("se ingresaron "+contador+" numeros positivos");
-        
     }
 }
