@@ -1,4 +1,5 @@
 package repeticion;
+
 /*
 Ej19: Imprime numeros pares, impares y numeros madiante la sentencia
 for utilizando un menu de operaciones

@@ -1,5 +1,8 @@
 package repeticion;
-
+/*
+Ej9: Solicitar n numeros hasta que se teclee uno negativo,
+y mostrar cuantos numeros se han introducido y su sumatoria
+*/
 import java.util.Scanner;
 
 public class SumatoriaWhile {
