@@ -9,7 +9,6 @@ public class AreaCirculo {
 
 	public static void main(String[] args) {
 		// declaracion de variable
-		
 		double radio, resultado;
 		Scanner obj=new Scanner(System.in);
 		System.out.println("Ingresa el radio del circulo");
