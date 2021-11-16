@@ -16,18 +16,14 @@ public class PotenciaFor {
     public static void main(String[] args) {
         // Declaracion de variables
         System.out.println("------------------------------------");
-        System.out.println("1     2     3      4        5");
+        System.out.println("1\t2\t3\t4\t5\n");
         System.out.println("------------------------------------");
-        System.out.println("1     1     1      1        1");
-        System.out.println("2     4     8      16       32");
-        System.out.println("3     9     27     81       243");
-        System.out.println("4     16    64     256      1,024");
-        System.out.println("5     25    125    625      3,125");
-        System.out.println("6     36    216    1,296    7,776");
-        System.out.println("7     49    343    2,401    16,807");
-        System.out.println("8     64    512    4,096    32,768");
-        System.out.println("9     81    729    6,561    59,049");
-        System.out.println("10    100   1,000  10,000   100,000");
-
+        for(int i=1;i<=10;i++){
+            System.out.println((int)Math.pow(i, 1)+"\t"
+            +(int)Math.pow(i, 2)+"\t"
+            +(int)Math.pow(i, 3)+"\t"
+            +(int)Math.pow(i, 4)+"\t"
+            +(int)Math.pow(i, 5));
+        }
     }
 }
