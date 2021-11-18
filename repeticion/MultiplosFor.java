@@ -17,13 +17,14 @@ public class MultiplosFor {
             n = in.nextInt();
             if (n % 5 == 0) {
                 System.out.println("El numero " + n + " es multilo de 5");
-            } else if (n % 3 == 0) {
+            } if (n % 3 == 0) {
                 System.out.println("El numero " + n + " es multiplo de 3");
             }
             datos += n + "\t";
         }
+        System.out.println("\tMultilos de 3 y 5");
         System.out.println("------------------------------------");
         System.out.print("Nnmeros ingresados \n");
         System.out.print(datos);
+       }
     }
-}
