@@ -5,6 +5,7 @@ y cuántos son negativos
 */
 public class Ejercicio13 {
     public static void main(String[] args) {
+        //Declaracion de variables
         
-    }
-}
+    }// Fin del metodo main ()
+}// Fin de la clase

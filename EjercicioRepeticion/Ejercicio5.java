@@ -5,6 +5,14 @@ utilizando un bucle while
 */
 public class Ejercicio5 {
     public static void main(String[] args) {
-        
-    }
-}
+        //Declaracion de variables
+        int i=320;
+        System.out.println("-------------------------------------");
+        System.out.println("\tNumeros While");
+        System.out.println("-------------------------------------");
+         while(i>=160) {
+            System.out.println(i);
+            i-=20;
+         }//Fin del While
+    }//Fin del metodo main ()
+}//Fin de la clase
