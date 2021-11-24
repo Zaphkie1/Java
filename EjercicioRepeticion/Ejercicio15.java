@@ -12,7 +12,7 @@ public class Ejercicio15 {
     public static void main(String[] args) {
         // Declaracion de variables
         double base, potencia;
-        int exponente2,exponente;
+        int exponente2, exponente;
         Scanner in = new Scanner(System.in);
         System.out.println("------------------------------------------------------------------------------------");
         System.out.println("\tPotencia entre numero real (Base) y numero entero(Exponente)");
@@ -28,6 +28,6 @@ public class Ejercicio15 {
                 potencia *= base;
             }
             System.out.println(base + "^" + i + " = " + potencia);
-        }//Fin de for
+        } // Fin de for
     }// Fin del metodo main ()
 }// Fin de la clase

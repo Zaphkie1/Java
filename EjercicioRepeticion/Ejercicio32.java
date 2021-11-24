@@ -1,4 +1,5 @@
 package EjercicioRepeticion;
+
 /*
 Ej 32: Escribe un programa que, dado un número entero, diga cuáles son y cuánto suman los
 dígitos pares. Los dígitos pares se deben mostrar en orden, de izquierda a derecha. Usa
@@ -18,6 +19,7 @@ Suma de los dígitos pares: 10
 */
 public class Ejercicio32 {
     public static void main(String[] args) {
+        // Declaracion de variables
         
-    }
-}
+    }// Fin del metodo main ()
+}// Fin de la clase

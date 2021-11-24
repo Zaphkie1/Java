@@ -17,11 +17,11 @@ public class Ejercicio21 {
         int numeroDeElementosImpares = 0;
         int maximoPar = 0;
         Scanner in = new Scanner(System.in);
-        System.out.println("-------------------------------------");
-        System.out.println("Media de impares y mayor de pares");
-        System.out.println("-------------------------------------");
+        System.out.println("----------------------------------------------------------------------------------------");
+        System.out.println("\t\t\tMedia de impares y mayor de pares");
+        System.out.println("----------------------------------------------------------------------------------------");
         System.out.println("Instrucciones: Introduce numeros enteros, Para terminar ingresa un numero negativo ");
-        System.out.println("-------------------------------------");
+        System.out.println("----------------------------------------------------------------------------------------");
         do {
             System.out.println("Introduce un numero: ");
             numeroIntroducido = in.nextInt();

@@ -10,6 +10,6 @@ public class Saludo {
     private static void saludo() {
     JOptionPane.showMessageDialog(null,
                                 "Hola Mundo !!!","Ejemplo saludo",
-                                JOptionPane.ERROR_MESSAGE);
+                                JOptionPane.WARNING_MESSAGE);
     }
 }

@@ -22,5 +22,5 @@ public class Ejercicio22 {
       }
     }
     System.out.println();
-    }
-}
+    }// Fin del metodo main ()
+}// Fin de la clase
