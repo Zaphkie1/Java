@@ -1,5 +1,8 @@
 package repeticion;
-
+/*
+Ej4:Escribe un programa en el que se pida el nombre y n calificaciones 
+utilizando while
+*/
 import java.util.Scanner;
 
 public class PromedioEstudiante {

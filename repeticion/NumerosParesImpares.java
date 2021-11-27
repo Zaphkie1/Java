@@ -1,12 +1,10 @@
 package repeticion;
-
 /*
 Ej5: Determina la sumatoria de n numeros pares eh impares
 ingresaos desde el tecladoo mediante el uso de la
 sentencia while
 */
 import java.util.Scanner;
-
 public class NumerosParesImpares {
     public static void main(String[] args) {
         // declaracion de variables

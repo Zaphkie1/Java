@@ -1,12 +1,10 @@
 package repeticion;
-
 /*
 * Ej17: Hacer un programa para calcular al Perimetro de un
 * Cuadrado, rectangulo, triangulo, y circulo mediante un
 * menu de opciones (Usar la sentencia Do-While)
 */
 import java.util.Scanner;
-
 public class MenuPerimetroDoWhile {
     public static void main(String[] args) {
         // Declaracion de variables

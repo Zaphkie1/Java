@@ -1,5 +1,4 @@
 package repeticion;
-
 /*
 * Ej8: Muestra la tabla de multiplicar de un
 * numero introducido por teclado utilizando la

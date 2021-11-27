@@ -1,7 +1,5 @@
 package repeticion;
-
 import java.util.Scanner;
-
 /*
 Ej11: Relealizar un juego para adivinar un numero.
 para ello pedir un numero N y luago ir pidiendo

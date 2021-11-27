@@ -14,7 +14,7 @@ public class Ejercicio20 {
         System.out.println("-------------------------------------");
         System.out.println("\tPiramide hueca");
         System.out.println("-------------------------------------");
-        System.out.print("INtroduce la altura de la pirámide: ");
+        System.out.print("Introduce la altura de la pirámide: ");
         alturaintroducida = in.nextInt();
         System.out.print("Introduce el relleno de la piramide: ");
         relleno = in.next();

@@ -1,12 +1,10 @@
 package repeticion;
-
 /*
 Ej 16: Crear un menu de Areas de las figuras
 cuadrado, rectangulo, triangulo, circulo mediante
 la sentencia (Do-While)
 */
 import java.util.Scanner;
-
 public class MenuAreaDoWhile {
     public static void main(String[] args) {
         // Declaracion de variables

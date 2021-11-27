@@ -17,8 +17,8 @@ public class TablaFor {
             System.out.println("-------------------------------------------");
             System.out.print("Ingrese el numero que desea multiplicar: ");
             numero = in.nextInt();
-            for (int num = 0; num <= 0; num++) {
-                resultado = numero + num;
+            for (int num = 0; num <= 10; num++) {
+                resultado = numero * num;
                 System.out.println(numero + " * " + num + " = " + resultado + "\n");
             }
         } while (numero != 0);// Fin de while

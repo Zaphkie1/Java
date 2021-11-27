@@ -9,7 +9,7 @@ public class NumerosImparesDoWhile {
         // Declaracion de variables
         int num = 1;// Inicializacion
         System.out.println("------------------------------------\n");
-        System.out.println("\tNumeros pares dowhile\n");
+        System.out.println("\tNumeros impares dowhile\n");
         System.out.println("------------------------------------\n");
         do {
             System.out.println(num);
