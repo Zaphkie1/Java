@@ -3,7 +3,8 @@ package Metodos;
 import javax.swing.JOptionPane;
 
 /*
-Ej6:
+Ej6: Realiza operciones de suma,resta,mult y div
+mediante el uso de JOption
 */
 public class OperacionesJOption {
     public static void main(String[] args) {
@@ -47,9 +48,9 @@ public class OperacionesJOption {
                 JOptionPane.showInputDialog(null, "Ingresa el segundo numero", "Suma",
                         JOptionPane.QUESTION_MESSAGE));
         resultado = n1 + n2;
-        JOptionPane.showMessageDialog(null,n1+" + "+n2+" = "+resultado,
+        JOptionPane.showMessageDialog(null, n1 + " + " + n2 + " = " + resultado,
                 "Divicion", JOptionPane.PLAIN_MESSAGE);
-    }
+    }// Fin de la suma
 
     private static void MenuResta() {
         double n1, n2, resultado;
@@ -60,9 +61,9 @@ public class OperacionesJOption {
                 JOptionPane.showInputDialog(null, "Ingresa el segundo numero", "Resta",
                         JOptionPane.QUESTION_MESSAGE));
         resultado = n1 - n2;
-        JOptionPane.showMessageDialog(null,n1+" - "+n2+" = "+resultado,
+        JOptionPane.showMessageDialog(null, n1 + " - " + n2 + " = " + resultado,
                 "Divicion", JOptionPane.PLAIN_MESSAGE);
-    }
+    }// Fin de la resta
 
     private static void MenuMultiplicacion() {
         double n1, n2, resultado;
@@ -73,9 +74,9 @@ public class OperacionesJOption {
                 JOptionPane.showInputDialog(null, "Ingresa el segundo numero", "Multiplicacion",
                         JOptionPane.QUESTION_MESSAGE));
         resultado = n1 * n2;
-        JOptionPane.showMessageDialog(null,n1+" * "+n2+" = "+resultado,
+        JOptionPane.showMessageDialog(null, n1 + " * " + n2 + " = " + resultado,
                 "Multiplicacion", JOptionPane.PLAIN_MESSAGE);
-    }
+    }// Fin de la multiplicacion
 
     private static void MenuDivicion() {
         double n1, n2, resultado;
@@ -86,7 +87,7 @@ public class OperacionesJOption {
                 JOptionPane.showInputDialog(null, "Ingresa el segundo numero", "Divicion",
                         JOptionPane.QUESTION_MESSAGE));
         resultado = n1 / n2;
-        JOptionPane.showMessageDialog(null,n1+" / "+n2+" = "+resultado,
+        JOptionPane.showMessageDialog(null, n1 + " / " + n2 + " = " + resultado,
                 "Divicion", JOptionPane.PLAIN_MESSAGE);
-    }
-}
+    }// Fin de la divicon
+}// FIn de la clase
